@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.screen {
+    display: flex;
+    height: 100vh;
+}
+
+.leftside {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftside img {
+    max-width: 500px;
+    height: auto;
+}
+
+.rightside {
+    width: 400px;
+    background-color: #3e7a94;
+    padding: 50px;
+}
+.rightside label {
+    display: block;
+    margin-bottom: 20px;
+}
+.rightside input {
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px;
+    outline: 0;
+}
+
+.link{
+    text-decoration: none;
+    color: #FFF;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding:0 5px;
+}
+
+.error{
+    font-size: 11px;
+    background-color: orangered;
+    color: #FFF;
+    padding: 4px;
+    border-radius: 5px;
+}
